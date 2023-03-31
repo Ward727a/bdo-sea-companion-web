@@ -1,0 +1,70 @@
+.app-barter-left-content-zone-item{
+    width: calc(100% - 20px);
+    background-color: #17160F;
+    margin-top: auto;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+    border-radius: 4px;
+
+    .app-barter-left-content-zone-item-icon{
+        margin: 8px 0 8px 0;
+    }
+
+    .app-barter-left-content-zone-item-name{
+        margin-top: 15px;
+        width: 90%;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .app-barter-left-content-zone-item-tier{
+        width: 90%;
+        font-size: 16px;
+        color: #afafaf;
+        margin-top: 10px;
+        p{
+            width: fit-content;
+            padding: 0 5px;
+            border-radius: 4px;
+            background-color: rgba(0,0,0,0.4);
+        }
+    }
+}
+
+.zone-item-tier-1{
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #616161 0%, #17160F 100%);
+    border: 1px solid #494b53;
+
+}
+.zone-item-tier-2{
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #3f5429 0%, #17160F 100%);
+    border: 1px solid #4e6029;
+
+}
+.zone-item-tier-3{
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #2c4a64 0%, #17160F 100%);
+    border: 1px solid #295860;
+
+}
+.zone-item-tier-4{
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #7a5e1a 0%, #17160F 100%);
+    border: 1px solid #7e6c40;
+
+}
+.zone-item-tier-5{
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #781d1a 0%, #17160F 100%);
+    border: 1px solid #864f4b;
+
+}

@@ -1,0 +1,72 @@
+.carrack{
+    display: grid;
+    width: 100%;
+    height: 100%;
+
+    grid-template-columns: 200px 1fr 300px;
+    grid-row: 1fr;
+
+    .carrack-left{
+        border-right: 3px solid #444348;
+        height: 100%;
+        text-align: center;
+    }
+
+    .carrack-center{
+        height: 100%;
+        padding: 0 10px;
+        overflow: auto;
+        // Custom scrollbar
+        &::-webkit-scrollbar {
+            width: 8px;
+            margin-top: 16px;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 8px;
+            box-shadow: inset 0 0 8px 8px #404045;
+            border: solid 2px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            box-shadow: inset 0 0 4px 4px #cca471;
+            border: solid 3px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            box-shadow: inset 0 0 4px 4px darken(#cca471, 10%);
+            transition: all 0.2s ease-in-out;
+        }
+    }
+
+    .carrack-right{
+        border-left: 3px solid #444348;
+        height: 100%;
+        text-align: center;
+
+        overflow: auto;
+        // Custom scrollbar
+        &::-webkit-scrollbar {
+            width: 8px;
+            margin-top: 16px;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 8px;
+            box-shadow: inset 0 0 8px 8px #404045;
+            border: solid 2px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            box-shadow: inset 0 0 4px 4px #cca471;
+            border: solid 3px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            box-shadow: inset 0 0 4px 4px darken(#cca471, 10%);
+            transition: all 0.2s ease-in-out;
+        }
+    }
+}

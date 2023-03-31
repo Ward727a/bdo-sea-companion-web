@@ -1,0 +1,112 @@
+// This is a modal type window that will display the notice for the current version of the app.
+// It will be displayed when the user launch for the first time the app after an update.
+#notice-back{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 98;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    #notice-container{
+        background-color: #31302d;
+        box-shadow: #000000 0px 0px 16px 0px;
+        border: 1px solid #686975;
+        width: 80%;
+        height: 50%;
+        border-radius: 10px;
+        padding: 20px;
+        overflow: auto;
+
+        flex-direction: column;
+        display: flex;
+
+        color: white;
+
+        // Custom scrollbar
+        &::-webkit-scrollbar {
+            width: 16px;
+            margin-top: 16px;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 8px;
+            box-shadow: inset 10px 0 10px 10px #404045;
+            border: solid 2px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            box-shadow: inset 0 0 6px 6px #cca471;
+            border: solid 3px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            box-shadow: inset 0 0 6px 6px darken(#cca471, 10%);
+            transition: all 0.2s ease-in-out;
+        }
+
+
+        .notice-header{
+            font-size: 1.2em;
+            font-weight: bold;
+            h1{
+                margin: 0;
+            }
+        }
+
+        .notice-content{
+            font-size: 1.2em;
+            
+        }
+        .notice-button{
+            
+            margin-top: auto;
+            margin-bottom: auto;
+
+            width: fit-content;
+
+            align-self: center;
+            justify-self: end;
+
+            cursor: pointer;
+            border-radius: 5px;
+
+            color: white;
+            font-size: 1.2em;
+            border: 1px solid;
+            height: 60px;
+            background: var(--barter-right-button-all-background-gradient);
+            height: 30px;
+            border-color: #856348;
+            &:hover{
+                background: linear-gradient(to bottom, lighten(#5e483a, 5%) 60%, lighten(#96683e, 5%) 100%);
+            }
+        }
+
+        .notice-content-footer{
+            display: flex;
+            margin-top: 20px;
+            flex-direction: column;
+
+            h3{
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-right: 20px;
+            }
+            ul{
+                color: rgb(118, 170, 238);
+                margin: 0;
+            }
+
+            .notice-content-footer-notes{
+                font-size: 1.2em;
+                margin-left: 20px;
+            }
+        }
+    }
+}

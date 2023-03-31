@@ -1,0 +1,83 @@
+.carrack-menu-button{
+    
+    background: linear-gradient(180deg, #45464f 60%, #3d3d47 100%);
+    border: solid 2px #686975;
+
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 8px;
+
+    text-align: center;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+
+    cursor: pointer;
+    
+    &:hover:not(.select){
+        border: solid 2px lighten(#686975, 8%);
+    }
+
+}
+
+.carrack-menu{
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.carrack-menu-header{
+    flex: 1;
+}
+.carrack-menu-footer{
+    justify-self: flex-end;
+
+}
+.carrack-menu-item{
+    color: white;
+    cursor: pointer;
+    p{
+        margin: 8px 0;
+    }
+
+    border-radius: 4px;
+
+}
+
+.select{
+    background: linear-gradient(180deg, #5e483a 60%, #96683e 100%)!important;
+    border-color: #856348!important;
+
+    cursor: default;
+}
+
+.valor{
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #781d1a 0%, #17160F 100%);
+    border: 1px solid #864f4b;
+}
+
+.balance{
+    
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #3f5429 0%, #17160F 100%);
+    border: 1px solid #4e6029;
+}
+
+.advance{
+    
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #7a5e1a 0%, #17160F 100%);
+    border: 1px solid #7e6c40;
+}
+
+.volante{
+    
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 0% 0%, #2c4a64 0%, #17160F 100%);
+    border: 1px solid #295860;
+}

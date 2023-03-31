@@ -1,0 +1,224 @@
+@import '../Theme.scss';
+
+*{
+    box-sizing: border-box;
+}
+
+#app-barter-center{
+    grid-column: var(--barter-center-grid-column);
+    grid-row: var(--barter-center-grid-row);
+
+    display: var(--barter-center-display);
+    grid-template-rows: var(--barter-center-grid-template-rows);
+    grid-template-columns: var(--barter-center-grid-template-columns);
+}
+
+// Table design
+table{
+
+    border-collapse: var(--barter-table-border-collapse);
+    width: var(--barter-table-width);
+    min-height: 100%;
+    margin: var(--barter-table-margin);
+    padding: var(--barter-table-padding);
+    border: var(--barter-table-border);
+    border-radius: var(--barter-table-border-radius);
+
+
+    justify-items: var(--barter-table-justify-items);
+
+    font-size: var(--barter-table-font-size);
+
+    // Table header
+    thead{
+        width: var(--barter-table-head-width);
+        height: var(--barter-table-head-height);
+        margin: var(--barter-table-head-margin);
+        padding: var(--barter-table-head-padding);
+        grid-column: var(--barter-table-head-grid-column);
+        grid-row: var(--barter-table-head-grid-row);
+        text-align: var(--barter-table-head-text-align);
+        color: var(--barter-table-head-color);
+        tr{
+            height: var(--barter-table-head-tr-height);
+            align-items: var(--barter-table-head-tr-align-items);
+            display: var(--barter-table-head-tr-display);
+            grid-template-columns: var(--barter-table-head-tr-grid-template-columns);
+        }
+    }
+
+    // Table body
+    tbody{
+        text-align: var(--barter-table-body-text-align);
+        width: var(--barter-table-body-width);
+        max-width: var(--barter-table-body-width);
+
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        min-height: var(--barter-table-body-height);
+        max-height: var(--barter-table-body-height);
+        height: var(--barter-table-body-height);
+        margin: var(--barter-table-body-margin);
+        padding: var(--barter-table-body-padding);
+        grid-column: var(--barter-table-body-grid-column);
+        grid-row: var(--barter-table-body-grid-row);
+
+        // Custom scrollbar
+        &::-webkit-scrollbar {
+            width: 10px;
+            margin-top: 16px;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 8px;
+            box-shadow: inset 0 0 10px 10px #404045;
+            border: solid 2px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            box-shadow: inset 0 0 6px 6px #cca471;
+            border: solid 3px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            box-shadow: inset 0 0 6px 6px darken(#cca471, 10%);
+            transition: all 0.2s ease-in-out;
+        }
+
+
+        tr{
+            span{
+                font-weight: lighter!important;
+            }
+            display: var(--barter-table-body-tr-display);
+            grid-template-columns: var(--barter-table-body-tr-grid-template-columns);
+            padding: 5px 0;
+            margin: 5px 0;
+            font-size: var(--barter-table-body-tr-font-size);
+            cursor: pointer;
+            .table-edit{
+                color: white;
+                padding-left: 20%;
+                padding-right: 20%;
+            }
+            td{
+                .input-center-item{
+                    cursor: text;
+                    overflow: scroll;
+                }
+
+                .input-number-barter{
+                    // Remove ALL the default styles from the input number
+                    
+                    // Remove the arrows from the input number (Firefox)
+                    &::-webkit-outer-spin-button,
+                    &::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                    }
+                    -moz-appearance: textfield;
+                    appearance: textfield;
+                    border: none;
+                    background: none;
+                    outline: none;
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    color: var(--barter-table-body-input-font-color);
+                    font-weight: 300;
+
+
+                }
+            }
+        }
+
+        .tier-1{
+            /* global 92%+ browsers support */
+            background:radial-gradient(ellipse at 0% 50%, #4b4b4b 0%, #17160F00 72%);
+            background-size: 150% 100%;
+            background-position: 80% 0;
+            
+            // tier-1 animation when any input is focused, the animation need to reverse when the input is not focused and the animation need to be forwards
+            &:focus-within{
+                animation: tierFocus .2s forwards;
+            }
+
+        }
+
+        @keyframes tierFocus {
+            0% {
+                background-position: 80% 0;
+            }
+            100% {
+                background-position: 0% 0;
+            }
+        }
+
+        .tier-2{
+            /* global 92%+ browsers support */
+            background:radial-gradient(ellipse at 0% 50%, #3f5429 0%, #17160F00 72%);
+            background-size: 150% 100%;
+            background-position: 80% 0;
+            
+            // tier-1 animation when any input is focused, the animation need to reverse when the input is not focused and the animation need to be forwards
+            &:focus-within{
+                animation: tierFocus .2s forwards;
+            }
+        }
+        .tier-3{
+            /* global 92%+ browsers support */
+            background:radial-gradient(ellipse at 0% 50%, #2c4a64 0%, #17160F00 72%);
+            background-size: 150% 100%;
+            background-position: 80% 0;
+            
+            // tier-1 animation when any input is focused, the animation need to reverse when the input is not focused and the animation need to be forwards
+            &:focus-within{
+                animation: tierFocus .2s forwards;
+            }
+        }
+        .tier-4{
+            /* global 92%+ browsers support */
+            background:radial-gradient(ellipse at 0% 50%, #7a5e1a 0%, #17160F00 72%);
+            background-size: 150% 100%;
+            background-position: 80% 0;
+            
+            // tier-1 animation when any input is focused, the animation need to reverse when the input is not focused and the animation need to be forwards
+            &:focus-within{
+                animation: tierFocus .2s forwards;
+            }
+        }
+        .tier-5{
+            /* global 92%+ browsers support */
+            background:radial-gradient(ellipse at 0% 50%, #781d1a 0%, #17160F00 72%);
+            background-size: 150% 100%;
+            background-position: 80% 0;
+            
+            // tier-1 animation when any input is focused, the animation need to reverse when the input is not focused and the animation need to be forwards
+            &:focus-within{
+                animation: tierFocus .2s forwards;
+            }
+        }
+
+        .warning-thresold{
+            *{
+                color: rgb(255, 128, 128)!important;
+            }
+        }
+
+        color: var(--barter-table-body-color);
+        background-color: var(--barter-table-body-bgcolor);
+        border-top: var(--barter-table-body-border);
+        border-left: var(--barter-table-body-border);
+        border-right: var(--barter-table-body-border);
+    }
+}
+
+.hide { display: none;}
+
+.hide-h{
+    display: none;
+}

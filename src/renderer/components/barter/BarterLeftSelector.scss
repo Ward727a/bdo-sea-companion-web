@@ -1,0 +1,101 @@
+
+.app-barter-left-selector{
+
+    width: var(--barter-left-selector-width);
+    height: var(--barter-left-selector-height);
+    margin: var(--barter-left-selector-margin);
+    padding: var(--barter-left-selector-padding);
+    display: var(--barter-left-selector-display);
+
+    align-items: var(--barter-left-selector-align-items);
+    justify-content: var(--barter-left-selector-justify-content);
+
+    border: var(--barter-left-selector-border);
+    border-radius: var(--barter-left-selector-border-radius);
+    background: var(--barter-left-header-bgcolor-gradient);
+
+    font-size: var(--barter-left-selector-font-size);
+    font-weight: var(--barter-left-selector-font-weight);
+    color: var(--barter-left-selector-color);
+
+    margin-bottom: 5px;
+
+    &:first-child{
+        margin-top: 5px;
+    }
+    &:last-child{
+        margin-bottom: 20px;
+    }
+
+    label{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0 10px;
+        cursor: pointer;
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.068);
+        }
+    }
+
+    input[type="checkbox"] {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+    .checkbox-border {
+        display: inline-block; // set to `inline-block` as `inline elements ignore `height` and `width`
+        height: 20px;
+        width: 20px;
+        background: #232326;
+        border: 1px #4f505e solid;
+        border-radius: 2px;
+        margin-right: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .display-checkbox-y {
+        display: inline-block;
+    }
+    .display-checkbox-n {
+        display: none;
+    }
+}
+    
+.warned{
+    background:linear-gradient(180deg, rgba(144, 68, 68, 1) 0%, rgba(108, 37, 37, 1) 100%);
+    border-color: #8b595c;
+    .checkbox-border {
+        display: inline-block; // set to `inline-block` as `inline elements ignore `height` and `width`
+        height: 20px;
+        width: 20px;
+        background: #232326;
+        border: 1px #8b595c solid;
+        border-radius: 2px;
+        margin-right: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        img{
+            height: 100%;
+            width: 100%;
+
+            filter: invert(48%) sepia(12%) saturate(1237%) hue-rotate(307deg) brightness(78%) contrast(91%);
+        }
+    }
+}

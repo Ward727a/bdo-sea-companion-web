@@ -1,0 +1,93 @@
+@import './Theme.scss';
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--app-bgcolor);
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+
+}
+
+p, h1, h2, h3, h4, h5, h6, span, div, a, li, ul, ol, button, input, textarea, select, option, label, pre, code, table, tr, td, th, thead, tbody, tfoot {
+  font-family: var(--app-font-family);
+}
+
+p, span, div, a, li, ul, ol, button, input, textarea, select, option, label, pre, code, table, tr, td, th, thead, tbody, tfoot {
+  font-size: var(--app-font-size);
+}
+
+.activeLink{
+  color: red;
+}
+
+#app-header{
+  nav{
+
+    height: var(--navbar-height);
+    width: var(--navbar-width);
+
+    background-color: var(--navbar-bgcolor);
+    border-bottom: var(--navbar-border);
+
+    display: var(--navbar-display);
+    align-items: var(--navbar-align-items);
+    justify-content: var(--navbar-justify-content);
+
+
+
+    font-weight: var(--navbar-font-weight);
+    text-transform: var(--navbar-text-transform);
+
+    margin: var(--navbar-margin);
+    padding: var(--navbar-padding);
+
+
+    .activeLink{
+      height: var(--app-link-active-height);
+      width: var(--app-link-active-width);
+
+      color: var(--app-link-active-color);
+
+      border-bottom: var(--app-link-active-border);
+
+      display: var(--app-link-active-display);
+
+      align-items: var(--app-link-active-align-items);
+      justify-content: var(--app-link-active-justify-content);
+      text-decoration: var(--app-link-active-text-decoration);
+
+      box-sizing: var(--app-link-active-box-sizing);
+      font-size: var(--navbar-font-size);
+    }
+    .link{
+      height: var(--app-link-height);
+      width: var(--app-link-width);
+
+      color: var(--app-link-color);
+
+      border-bottom: var(--app-link-border);
+
+      display: var(--app-link-display);
+
+      align-items: var(--app-link-align-items);
+      justify-content: var(--app-link-justify-content);
+      text-decoration: var(--app-link-text-decoration);
+
+      box-sizing: var(--app-link-box-sizing);
+      font-size: var(--navbar-font-size);
+
+      &:hover{
+        color: var(--app-link-hover-color);
+      }
+    }
+  }
+}
+
+#app-content{
+  height: calc(100% - 50px);
+}

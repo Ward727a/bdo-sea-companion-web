@@ -1,0 +1,52 @@
+@import './Theme.scss';
+
+*{
+    box-sizing: border-box;   
+    color: #fff;
+    text-align: center;
+
+    user-select: none;
+}
+
+body{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+
+}
+
+p, h1, h2, h3, h4, h5, h6, span, div, a, li, ul, ol, button, input, textarea, select, option, label, pre, code, table, tr, td, th, thead, tbody, tfoot {
+    font-family: var(--app-font-family);
+}
+
+p, span, div, a, li, ul, ol, button, input, textarea, select, option, label, pre, code, table, tr, td, th, thead, tbody, tfoot {
+    font-size: var(--app-font-size);
+}
+
+#app{
+    height: 100vh;
+}
+
+#BDOC-Updater{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    #BDOC-Updater-Header{
+        padding: 10px;
+    }
+    #BDOC-Updater-Body{
+        height: 50%;
+        #BDOC-Updater-Title{
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        #BDOC-Updater-Message{
+            color: #cccccc;
+            font-size: 16px;
+        }
+    }
+}

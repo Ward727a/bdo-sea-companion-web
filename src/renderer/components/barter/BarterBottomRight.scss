@@ -1,0 +1,40 @@
+
+.app-barter-bottom-right-content{
+    margin-top: 37px;
+    box-sizing: border-box;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4b4b4b;
+
+    border: 1px solid #bba688;
+
+    display: flex;
+
+    width: 400px;
+    border-radius: 4px;
+    margin-right: 10px;
+
+    color: white;
+
+    justify-self: flex-end;
+    padding: 0 10px;
+
+    p{
+        width: 100%;
+        &:first-child{
+            text-align: left;
+            color: #bba688;
+            font-size: 18px;
+        }
+    }
+    .last{
+        
+        text-align: right;
+        margin-right: 10px;
+    }
+    img{
+        width: fit-content;
+    }
+}

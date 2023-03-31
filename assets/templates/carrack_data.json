@@ -1,0 +1,59 @@
+{
+    "for": "data/carrack_data.xml",
+    "versions": [
+        {
+            "0.1.0-beta": {
+                "carrack": {
+                    "boat": {
+                        "advance": {
+                            "image": "advance.png",
+                            "need": {
+                                "%any%": {
+                                    "_default": "CherrySeed",
+                                    "quantity": "0"
+                                }
+                            }
+                        },
+                        "valor": {
+                            "image": "valor.png",
+                            "need": {
+                                "%any%": {
+                                    "_default": "CherrySeed",
+                                    "quantity": "0"
+                                }
+                            }
+                        },
+                        "balance": {
+                            "image": "balance.png",
+                            "need": {
+                                "%any%": {
+                                    "_default": "CherrySeed",
+                                    "quantity": "0"
+                                }
+                            }
+                        },
+                        "volante": {
+                            "image": "volante.png",
+                            "need": {
+                                "%any%": {
+                                    "_default": "CherrySeed",
+                                    "quantity": "0"
+                                }
+                            }
+                        }
+                    },
+                    "items":{
+                        "%any%": {
+                            "_default": "CherrySeed",
+                            "image": "CherrySeed.png",
+                            "daily": "0",
+                            "coin": "0",
+                            "barter": "0",
+                            "trackable": "0"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

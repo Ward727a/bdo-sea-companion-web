@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+:root {
+  // Application
+  --app-accent-color: #32639f;
+  --app-font-size: 16px;
+  --app-font-family: 'Marcellus', serif;
+  --app-bgcolor: #31302d;
+  --app-border-color: #3b3f44;
+
+  // Link not active
+  --app-link-color: #c6c0b7;
+  --app-link-border: none;
+  --app-link-display: flex;
+  --app-link-align-items: center;
+  --app-link-justify-content: center;
+  --app-link-text-decoration: none;
+  --app-link-hover-color: #e3d3be;
+  --app-link-height: 50px;
+  --app-link-width: 150px;
+  --app-link-box-sizing: content-box;
+
+  // Link active
+  --app-link-active-color: #e3d3be;
+  --app-link-active-border: 3px solid #e3d3be;
+  --app-link-active-display: flex;
+  --app-link-active-align-items: center;
+  --app-link-active-justify-content: center;
+  --app-link-active-text-decoration: none;
+  --app-link-active-height: 50px;
+  --app-link-active-width: 150px;
+  --app-link-active-box-sizing: content-box;
+
+  // Navbar
+  --navbar-bgcolor: none;
+  --navbar-height: 50px;
+  --navbar-width: 100%;
+  --navbar-border: 3px solid #444348;
+  --navbar-display: flex;
+  --navbar-align-items: center;
+  --navbar-justify-content: flex-start;
+  --navbar-margin: 0 0 0 0;
+  --navbar-padding: 0 15px;
+  --navbar-font-size: 24px;
+  --navbar-font-weight: normal;
+  --navbar-text-transform: uppercase;
+
+  // Titlebar
+  --titlebar-bgcolor: #94754b;
+  --titlebar-border: solid 2px #c6a954;
+  --titlebar-height: 50px;
+  --titlebar-width: 100%;
+
+  --titlebar-title-color: #f8e6cc;
+  --titlebar-title-size: 24px;
+  --titlebar-title-weight: normal;
+
+  //* Color converted with: https://codepen.io/sosuke/pen/Pjoqqp
+  //* Thanks to: Sosuke (Barrett Sonntag)
+  --titlebar-icon-color: invert(97%) sepia(87%) saturate(563%) hue-rotate(301deg) brightness(99%) contrast(115%);;
+  --titlebar-icon-width: 8%;
+  --titlebar-icon-max-width: 80px;
+  --titlebar-icon-min-width: 80px;
+  --titlebar-icon-height: 100%;
+  --titlebar-icon-max-height: 50px;
+  --titlebar-icon-min-height: 50px;
+
+
+  // Barter
+  --barter-display: grid;
+
+  --barter-grid-template-columns: 225px calc((100% - 225px) - 80px) 80px;
+  --barter-grid-template-rows: 30px calc(100% - 30px);
+
+  --barter-align-items: inherit;
+  --barter-justify-content: stretch;
+  --barter-height: auto;
+  --barter-width: 100%;
+  --barter-margin: 0 0 0 0;
+  --barter-padding: 0 0 0 0;
+  --barter-flex-direction: row;
+
+  // BarterLeft
+  --barter-left-grid-column: 1;
+  --barter-left-display: flex;
+  --barter-left-flex-direction: column;
+  --barter-left-align-items: center;
+  --barter-left-justify-content: flex-start;
+  --barter-left-height: 100%;
+  --barter-left-width: 100%;
+  --barter-left-margin: 0 0 0 0;
+  --barter-left-padding: 0 0 0 0;
+  --barter-left-flex-direction: column;
+    // BarterLeftHeader
+    --barter-left-header-bgcolor-gradient: linear-gradient(to bottom, #45464f 20%, #3d3d47 100%);
+    --barter-left-header-height: 40px;
+    --barter-left-header-border: 1px solid #686975;
+    --barter-left-header-display: flex;
+    --barter-left-header-align-items: center;
+    --barter-left-header-justify-content: space-between;
+    --barter-left-header-margin: 0 0 0 0;
+    --barter-left-header-padding: 0 10px;
+    --barter-left-header-width: calc(100% - 20px);
+    --barter-left-header-font-size: 24px;
+    --barter-left-header-font-weight: bold;
+    --barter-left-header-text-transform: uppercase;
+    --barter-left-header-color: white;
+    --barter-left-header-border-radius: 2px;
+      // BarterLeftHeaderIcon
+      --barter-left-header-icon-color: invert(74%) sepia(37%) saturate(0%) hue-rotate(134deg) brightness(86%) contrast(89%);
+      --barter-left-header-icon-height: 24px;
+      --barter-left-header-icon-maxwidth: 24px;
+    // BarterLeftSelector
+    --barter-left-selector-bgcolor-gradient: linear-gradient(to bottom, #45464f 20%, #3d3d47 100%);
+    --barter-left-selector-height: 40px;
+    --barter-left-selector-border: 1px solid #686975;
+    --barter-left-selector-display: flex;
+    --barter-left-selector-align-items: center;
+    --barter-left-selector-justify-content: space-between;
+    --barter-left-selector-margin: 0 0 0 0;
+    --barter-left-selector-padding: 0 0;
+    --barter-left-selector-width: calc(100% - 20px);
+    --barter-left-selector-font-size: 24px;
+    --barter-left-selector-font-weight: bold;
+    --barter-left-selector-text-transform: uppercase;
+    --barter-left-selector-color: white;
+    --barter-left-selector-border-radius: 2px;
+
+  // BarterCenter
+  --barter-center-grid-column: 2;
+  --barter-center-grid-row: 1 / 3;
+  --barter-center-display: grid;
+  --barter-center-grid-template-rows: 30px calc(100% - 30px);
+  --barter-center-grid-template-columns: 10% 30% 15% 15% 15% 15%;
+    // Table of BarterCenter
+    --barter-table-border-collapse: collapse;
+    --barter-table-border-radius: 0;
+    --barter-table-margin: 0 0 0 0;
+    --barter-table-padding: 0 0 0 0;
+    --barter-table-border: none;
+    --barter-table-justify-items: stretch;
+    --barter-table-font-size: 18px;
+    --barter-table-width: 100%;
+      // Table head
+      --barter-table-head-color: #999999;
+      --barter-table-head-width: 100%;
+      --barter-table-head-height: 100%;
+      --barter-table-head-margin: 0 0 0 0;
+      --barter-table-head-padding: 0 0 0 0;
+      --barter-table-head-grid-column: 1 / 7;
+      --barter-table-head-grid-row: 1;
+      --barter-table-head-text-align: center;
+        // Table head tr
+        --barter-table-head-tr-display: grid;
+        --barter-table-head-tr-height: 100%;
+        --barter-table-head-tr-align-items: center;
+        --barter-table-head-tr-grid-template-columns: 10% 30% 15% 15% 15% 15%;
+      
+      // Table body
+      --barter-table-body-color: #c6bba5;
+      --barter-table-body-bgcolor: #232326;
+      --barter-table-body-border: 3px solid #3b3f44;
+      --barter-table-body-text-align: center;
+      --barter-table-body-width: 100%;
+      --barter-table-body-height: 100%;
+      --barter-table-body-margin: 0 0 0 0;
+      --barter-table-body-padding: 0 0 0 0;
+      --barter-table-body-grid-column: 1 / 7;
+      --barter-table-body-grid-row: 2 / 3;
+        // tr of table body
+        --barter-table-body-tr-display: grid;
+        --barter-table-body-tr-grid-template-columns: 10% 30% 15% 15% 15% 15%;
+        --barter-table-body-tr-padding: 10px 0 0 0;
+        --barter-table-body-tr-font-size: 18px;
+          --barter-table-body-input-font-color: rgb(185, 190, 211);
+    
+  // BarterRight
+  --barter-right-button-all-background-gradient: linear-gradient(to bottom, #5e483a 60%, #96683e 100%);
+}

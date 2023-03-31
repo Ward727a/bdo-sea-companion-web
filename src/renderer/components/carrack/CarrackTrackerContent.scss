@@ -1,0 +1,124 @@
+.border{
+    background-color: blue;
+    width: 0px;
+    height: 0px;
+
+    transition: all 0.5s ease;
+}
+
+@keyframes border-anim {
+    // this animation will be used in JS to add more height to the border
+    0% {
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+    100% {
+        margin-top: 70px;
+        margin-bottom: 56px;
+    }
+}
+
+.carrack-tracker-content-item{
+    span:first-child{
+        width: auto;
+        margin-right: 20px;
+    }
+    .drag{
+        float: right;
+        cursor: n-resize;
+    }
+    .title{
+        
+        flex: 1;
+    }
+    .arrow{
+        
+        margin-right: 10px;
+    }
+    .complete-solo{
+        background: linear-gradient(180deg, #484f45 60%, #3f473d 100%)!important;
+        border-color: #6b7568!important;
+    }
+    .subItem{
+    width: 100%;
+    background: linear-gradient(180deg, #45464f 60%, #3d3d47 100%);
+    border: solid 2px #686975;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+
+    cursor: pointer;
+
+    img{
+        margin-right: 12px;
+    }
+    .name{
+        width: 100%;
+        font-size: 14px;
+        text-align: left;
+        color: darken(white, 30%);
+    }
+
+
+    }
+    .solo-content-item{
+        
+        width: 100%;
+        background: linear-gradient(180deg, #45464f 60%, #3d3d47 100%);
+        border: solid 2px #686975;
+        border-radius: 4px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        margin-top: 12.5px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+
+        cursor: default;
+
+    }
+
+    &.multi-content-item{
+        position: relative; 
+        z-index: 100;
+        .content-header{
+            background: linear-gradient(180deg, #4f4f4f 80%, #666666 100%);
+            width: 100%;
+            border: solid 2px #6d6d6d;
+            border-radius: 4px;
+            padding: 0px;
+            cursor: pointer;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12.5px;
+            margin-top: 12.5px;
+            padding: 0 10px;
+            z-index: 100;
+        }
+        .complete{
+            background: linear-gradient(180deg, #5e483a 60%, #96683e 100%)!important;
+            border-color: #856348!important;
+        }
+    }
+    .complete{
+        background: linear-gradient(180deg, #5e483a 60%, #96683e 100%)!important;
+        border-color: #856348!important;
+    }
+
+    div{
+        padding-left: 10px;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    
+}

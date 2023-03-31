@@ -1,0 +1,132 @@
+// This is a modal type window that will display the changelog for the current version of the app.
+// It will be displayed when the user launch for the first time the app after an update.
+#changelog-back{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    #changelog-container{
+        background-color: #31302d;
+        box-shadow: #000000 0px 0px 16px 0px;
+        border: 1px solid #686975;
+        width: 80%;
+        height: 80%;
+        border-radius: 10px;
+        padding: 20px;
+        overflow: auto;
+
+        color: white;
+
+        // Custom scrollbar
+        &::-webkit-scrollbar {
+            width: 16px;
+            margin-top: 16px;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 8px;
+            box-shadow: inset 10px 0 10px 10px #404045;
+            border: solid 5px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            box-shadow: inset 0 0 6px 6px #cca471;
+            border: solid 6px transparent;
+            transition: all 0.2s ease-in-out;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            box-shadow: inset 0 0 6px 6px darken(#cca471, 10%);
+            transition: all 0.2s ease-in-out;
+        }
+
+
+        .changelog-header{
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+
+            display: flex;
+            align-items: baseline;
+
+            h1{
+                margin-top: 0;
+            }
+
+            img{
+                margin-top: 18px;
+                margin-left: 10px;
+                filter: invert(100%);
+                align-self: flex-start;
+                transition: all 0.2s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                    filter: invert(75%);
+                }
+                &:active{
+                    transform: scale(0.9);
+                }
+            }
+        }
+
+        .changelog-content{
+            font-size: 1.2em;
+            .changelog-content-header{
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .changelog-content-content{
+                
+                h2{
+                    font-size: 1.2em;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+                
+                ul{
+                    margin-left: 20px;
+                }
+
+                .changelog-content-content-additions{
+                    color: rgb(121, 194, 121);
+                }
+
+                .changelog-content-content-fixes{
+                    color: rgb(238, 118, 118);
+                }
+
+                .changelog-content-content-changes{
+                    color: rgb(238, 200, 118);
+                }
+            }
+        }
+
+        .changelog-content-footer{
+            display: flex;
+            margin-top: 20px;
+            flex-direction: column;
+
+            h3{
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-right: 20px;
+            }
+            ul{
+                color: rgb(118, 170, 238);
+                margin: 0;
+            }
+
+            .changelog-content-footer-notes{
+                font-size: 1.2em;
+                margin-left: 20px;
+            }
+        }
+    }
+}

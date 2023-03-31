@@ -1,0 +1,21 @@
+{
+    "for": "settings.xml",
+    "versions": [
+        {
+            "0.1.0-beta": {
+                "settings":{
+                    "lang": "en", 
+                    "ignoreAncado": "false", 
+                    "ignoreIliya": "false", 
+                    "ignoreEpheria": "false",
+                    "hideAncado": "true",
+                    "hideIliya": "true",
+                    "hideEpheria": "true",
+                    "boatType": "none",
+                    "disclaimer": "false",
+                    "chosenLang": "false"
+                }
+            }
+        }
+    ]
+}

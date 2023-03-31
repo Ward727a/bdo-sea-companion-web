@@ -1,0 +1,98 @@
+.barter-right{
+    grid-row: 2;
+    grid-column: 3;
+    display: flex;
+
+    flex-direction: column;
+
+    height: 100%;
+    .barter-right__buttons{
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        button{
+            margin-bottom: 5px;
+            width: 60px;
+            height: 60px;
+            &:is(.all){
+                background: var(--barter-right-button-all-background-gradient);
+                height: 30px;
+                border-color: #856348;
+                &:hover{
+                    background: linear-gradient(to bottom, lighten(#5e483a, 5%) 60%, lighten(#96683e, 5%) 100%);
+                }
+            }
+        }
+
+        .barter-right__button{
+            background: var(--barter-left-header-bgcolor-gradient);
+            border: var(--barter-left-header-border);
+            border-radius: 4px;
+            cursor: pointer;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background: linear-gradient(to bottom, lighten(#45464f, 5%) 20%, lighten(#3d3d47, 5%) 100%);
+            }
+        }
+
+
+        .not-active{
+            opacity: 0.5;
+        }
+        .active{
+            opacity: 1;
+        }
+
+        .warn{
+            background:linear-gradient(180deg, #904444 0%, #6c2525 100%);
+            border-color: #8b595c;
+
+            &:hover{
+                background:linear-gradient(180deg, lighten(#904444, 5%) 0%, lighten(#6c2525, 5%) 100%);
+            }
+        }
+    }
+
+    .barter-right__reset{
+
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+
+        padding: 5px;
+        flex: 2;
+
+        .barter-right-resetButton{
+            background:linear-gradient(180deg, #904444 0%, #6c2525 100%);
+            width: 60px;
+            height: 60px;
+
+            border-radius: 4px;
+            transition: all 0.3s ease-in-out;
+
+            border: 1px solid #8b595c;
+
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+
+            &:hover{
+                background:linear-gradient(180deg, lighten(#904444, 5%) 0%, lighten(#6c2525, 5%) 100%);
+            }
+            cursor: pointer;
+            img{
+                // filter to make the image white
+                filter: invert(100%);
+                width: 100%;
+            }
+        }
+    }
+}

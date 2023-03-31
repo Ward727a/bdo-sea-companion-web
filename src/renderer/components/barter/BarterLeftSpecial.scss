@@ -1,0 +1,90 @@
+@import '../Theme.scss';
+
+.barter-left-special{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    color: white;
+    margin: 0;
+    padding: 0;
+
+    .InputSpecialBarter{
+        width: calc(100% - 20px);
+        min-height: 60px;
+        margin: 0;
+
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+
+        display: flex;
+        flex-direction: column;
+
+        background-color: #232326;
+        border: 1px solid #5b5b5e;
+
+        border-radius: 2px;
+
+        margin-bottom: 10px;
+
+        label{
+            font-size: 14px;
+            color: #e4ceb2;
+        }
+
+        #LastSpecialBarter{
+            width: 50%;
+            font-size: 14px;
+            color: #bba688;
+            background-color: #26262a;
+            border: 1px solid #696460;
+            border-radius: 2px;
+            height: 24px;
+        }
+    }
+
+    .EstimatedNextSpecial{
+        width: calc(100% - 60px);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2px;
+        p{
+        font-size: 14px;
+        }
+        p:nth-child(1){
+            color: #e4ceb2;
+        }
+        p:nth-child(2){
+            color: white;
+        }
+
+        min-height: 60px;
+        background-color: #94754b;
+        border: 1px solid #c6a954;
+
+    }
+
+    input[type="number"]{
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+        -moz-appearance: textfield;
+        appearance: textfield;
+        border: none;
+        outline: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-weight: var(--barter-table-body-font-weight);
+    }
+}

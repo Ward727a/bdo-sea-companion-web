@@ -1,0 +1,527 @@
+<root>
+
+    <!-- Translation of the page title -->
+    <pageTitle>
+        <barter>Bartering Stocks</barter>
+        <carrack>Carrack Tracking</carrack>
+    </pageTitle>
+
+    <!-- Translation of the navigation bar -->
+    <navigation>
+        <barter>Barter</barter>
+        <carrack>Carrack</carrack>
+    </navigation>
+    
+    <!-- Translation of the reset window -->
+    <reset>
+        <title>Hard reset</title>
+        <content>
+            <first>
+                Do you want to reset EVERYTHING that you stored in there?
+            </first>
+            <second>
+                Be warned, this will delete everything and restart the app as if you had just installed it for the very first time!
+            </second>
+            <third>
+                This is your last warning!
+            </third>
+        </content>
+        <confirmation>
+            <first>
+                Yes
+            </first>
+            <second>
+                Ok
+            </second>
+            <third>
+                DO IT!
+            </third>
+        </confirmation>
+        <cancel>
+            <first>
+                No
+            </first>
+            <second>
+                Nevermind
+            </second>
+            <third>
+                Forget it
+            </third>
+        </cancel>
+    </reset>
+
+    <language>
+        <selectLanguage>Select language</selectLanguage>
+    </language>
+    
+    <!-- Translation of the items -->
+    <items>
+    <!-- Items of Tier 1 (Sorted as shown in the game's storage auto-arrange) -->
+        <BlueRose>
+            <name>Blue Rose</name>
+            <description>Dried Blue Rose</description>
+        </BlueRose>
+        <FishBone>
+            <name>Fish Bone</name>
+            <description>Giant Fish Bone</description>
+        </FishBone>
+        <Ration>
+            <name>Naval Ration</name>
+            <description>Naval Ration</description>
+        </Ration>
+        <Seagull>
+            <name>Seagull Figurine</name>
+            <description>Stained Seagull Figurine</description>
+        </Seagull>
+        <RaftToy>
+            <name>Raft Toy</name>
+            <description>Raft Toy</description>
+        </RaftToy>
+        <RawGizzard>
+            <name>Raw Gizzard</name>
+            <description>Chewy Raw Gizzard</description>
+        </RawGizzard>
+        <UrnPiece>
+            <name>Urn Piece</name>
+            <description>Ancient Urn Piece</description>
+        </UrnPiece>
+        <AncientMural>
+            <name>Ancient Mural</name>
+            <description>Unidentified Ancient Mural</description>
+        </AncientMural>
+        <CherrySeed>
+            <name>Cherry Seed</name>
+            <description>Cherry Tree Seed Pouch</description>
+        </CherrySeed>
+        <GoldenSand>
+            <name>Golden Sand</name>
+            <description>Golden Sand</description>
+        </GoldenSand>
+        <RoaSeed>
+            <name>Roa Seed</name>
+            <description>Roa Flower Seed Pouch</description>
+        </RoaSeed>
+        <RakeflowerSeed>
+            <name>Rakeflower Seed</name>
+            <description>Rakeflower Seed Pouch</description>
+        </RakeflowerSeed>
+        <FertileSoil>
+            <name>Fertile Soil</name>
+            <description>Fertile Soil</description>
+        </FertileSoil>
+        <Gunpowder>
+            <name>Gunpowder</name>
+            <description>Pirates' Gunpowder</description>
+        </Gunpowder>
+    <!-- Level 2 Items -->
+        <Lunchbox>
+            <name>Lunchbox</name>
+            <description>Islanders' Lunchbox</description>
+        </Lunchbox>
+        <CronCoin>
+            <name>Cron Coin</name>
+            <description>Cron Castle Gold Coin</description>
+        </CronCoin>
+        <ShipMast>
+            <name>Ship Mast</name>
+            <description>Pirate Ship Mast</description>
+        </ShipMast>
+        <Marble>
+            <name>Marble</name>
+            <description>Opulent Marble</description>
+        </Marble>
+        <FilteredWater>
+            <name>Filtered Water</name>
+            <description>Filtered Drinking Water</description>
+        </FilteredWater>
+        <ConchShell>
+            <name>Conch Shell</name>
+            <description>Conch Shell Ornament</description>
+        </ConchShell>
+        <OysterBox>
+            <name>Oyster Box</name>
+            <description>Supreme Oyster Box</description>
+        </OysterBox>
+        <StoneSlab>
+            <name>Stone Slab</name>
+            <description>Big Stone Slab</description>
+        </StoneSlab>
+        <SeaCucumber>
+            <name>Sea Cucumber</name>
+            <description>Narvo Sea Cucumber</description>
+        </SeaCucumber>
+        <BalancedStone>
+            <name>Balanced Stone</name>
+            <description>Balanced Stone Pagoda</description>
+        </BalancedStone>
+        <SurvivalKit>
+            <name>Survival Kit</name>
+            <description>Sea Survival Kit</description>
+        </SurvivalKit>
+        <Tentacle>
+            <name>Tentacle</name>
+            <description>Monster Tentacle</description>
+        </Tentacle>
+        <PirateCoin>
+            <name>Pirate Coin</name>
+            <description>Pirate Gold Coin</description>
+        </PirateCoin>
+        <UrchinSpine>
+            <name>Urchin Spine</name>
+            <description>Urchin Spine</description>
+        </UrchinSpine>
+    <!-- Level 3 Items -->
+        <Hourglass>
+            <name>Hourglass</name>
+            <description>Old Hourglass</description>
+        </Hourglass>
+        <TreasureMap>
+            <name>Treasure Map</name>
+            <description>Torn Pirate Treasure Map</description>
+        </TreasureMap>
+        <SupplyBox>
+            <name>Supply Box</name>
+            <description>Pirates' Supply Box</description>
+        </SupplyBox>
+        <Binoculars>
+            <name>Binoculars</name>
+            <description>Scout Binoculars</description>
+        </Binoculars>
+        <Stalactite>
+            <name>Stalactite</name>
+            <description>Stalactite Fragment</description>
+        </Stalactite>
+        <Teacup>
+            <name>Teacup</name>
+            <description>Skull Decorated Teacup</description>
+        </Teacup>
+        <RoundKnife>
+            <name>Round Knife</name>
+            <description>Round Knife</description>
+        </RoundKnife>
+        <Blood>
+            <name>Blood</name>
+            <description>Gooey Monster Blood</description>
+        </Blood>
+        <Coat>
+            <name>Coat</name>
+            <description>Weasel Leather Coat</description>
+        </Coat>
+        <SkullCarpet>
+            <name>Skull Carpet</name>
+            <description>Skull Symbol Carpet</description>
+        </SkullCarpet>
+        <HerbPile>
+            <name>Herb Pile</name>
+            <description>Rare Herb Pile</description>
+        </HerbPile>
+        <Fishnet>
+            <name>Fishnet</name>
+            <description>Lopsters Fishnet</description>
+        </Fishnet>
+        <AncientOrders>
+            <name>Ancient Orders</name>
+            <description>Ancient Orders</description>
+        </AncientOrders>
+        <BlueCandle>
+            <name>Blue Candle</name>
+            <description>Blue Candle Bundle</description>
+        </BlueCandle>
+    <!-- Level 4 Items -->
+        <MarineHelmet>
+            <name>Marine Helmet</name>
+            <description>Marine Knights' Helmet</description>
+        </MarineHelmet>
+        <PirateDagger>
+            <name>Pirate Dagger</name>
+            <description>Stolen Pirate Dagger</description>
+        </PirateDagger>
+        <ThreadSpool>
+            <name>Thread Spool</name>
+            <description>Opulent Thread Spool</description>
+        </ThreadSpool>
+        <Amethyst>
+            <name>Amethyst</name>
+            <description>Amethyst Fragment</description>
+        </Amethyst>
+        <MarineSpear>
+            <name>Marine Spear</name>
+            <description>Marine Knights' Spear</description>
+        </MarineSpear>
+        <Lava>
+            <name>Lava</name>
+            <description>Solidified Lava</description>
+        </Lava>
+        <GreenSalt>
+            <name>Green Salt</name>
+            <description>Green Salt Lump</description>
+        </GreenSalt>
+        <Manual>
+            <name>Manual</name>
+            <description>Boatman's Manual</description>
+        </Manual>
+        <CoinChest>
+            <name>Coin Chest</name>
+            <description>Old Chest with Gold Coins</description>
+        </CoinChest>
+        <Seashell>
+            <name>Seashell</name>
+            <description>Seashell Deco</description>
+        </Seashell>
+        <Panacea>
+            <name>Panacea</name>
+            <description>Panacea</description>
+        </Panacea>
+        <DragonFigurine>
+            <name>Dragon Figurine</name>
+            <description>Headless Dragon Figurine</description>
+        </DragonFigurine>
+        <BronzeCandlestick>
+            <name>Bronze Candlestick</name>
+            <description>Bronze Candlestick</description>
+        </BronzeCandlestick>
+        <PiratesKey>
+            <name>Pirate's Key</name>
+            <description>Pirate's Key</description>
+        </PiratesKey>
+    <!-- Level 5 Items -->
+        <OctogonalBox>
+            <name>Octogonal Box</name>
+            <description>Octogonal Box</description>
+        </OctogonalBox>
+        <HerbalWine>
+            <name>Herbal Wine</name>
+            <description>37 Year Old Herbal Wine</description>
+        </HerbalWine>
+        <AzureQuartz>
+            <name>Azure Quartz</name>
+            <description>Azure Quartz</description>
+        </AzureQuartz>
+        <Butterfly>
+            <name>Butterfly</name>
+            <description>Taxidermied Morpho Butterfly</description>
+        </Butterfly>
+        <Tear>
+            <name>Tear</name>
+            <description>Statue's Tear</description>
+        </Tear>
+        <GoldCandlestick>
+            <name>Gold Candlestick</name>
+            <description>Supreme Gold Candlestick</description>
+        </GoldCandlestick>
+        <GoldDragon>
+            <name>Gold Dragon</name>
+            <description>Faded Gold Dragon Figurine</description>
+        </GoldDragon>
+        <Caterpillar>
+            <name>Caterpillar</name>
+            <description>Taxidermied White Caterpillar</description>
+        </Caterpillar>
+        <FishScale>
+            <name>Fish Scale</name>
+            <description>Golden Fish Scale</description>
+        </FishScale>
+        <GoldenHerb>
+            <name>Golden Herb</name>
+            <description>102 Year Old Golden Herb</description>
+        </GoldenHerb>
+        <Portrait>
+            <name>Portrait</name>
+            <description>Portrait of the Ancient</description>
+        </Portrait>
+        <Elixir>
+            <name>Elixir</name>
+            <description>Elixir of Youth</description>
+        </Elixir>
+        <Fabric>
+            <name>Fabric</name>
+            <description>Luxury Patterned Fabric</description>
+        </Fabric>
+        <Rock>
+            <name>Rock</name>
+            <description>Mysterious Rock</description>
+        </Rock>
+    </items>
+    
+    <!-- Barter menu strings -->
+    <barter>
+        <left>
+            <storageTitle>Storages</storageTitle>
+            <lastSpecialBarterAt>Last special barter at:</lastSpecialBarterAt>
+            <estimatedNext>Estimated next:</estimatedNext>
+            <searchPlaceholder>Search</searchPlaceholder>
+            <searchAdvice>You can use the plus sign (+) to search for multiple items at the same time!</searchAdvice>
+            <specialBarterAdvice>You can enter here your total barters at which you were the last time you had your special barter to get an approximation on the next one!</specialBarterAdvice>
+        </left>
+        <table>
+            <tier>Level</tier>
+            <name>Name</name>
+            <qty>Quantity</qty>
+            <tableAdvice>You can use the arrow up, down, left or right key to navigate faster between amounts!</tableAdvice>
+        </table>
+        <bottom>
+            <left>
+                <title>Treshold Warning</title>
+                <tresholdAdvice>Any item reaching this limit or below will trigger the warning and put the concerned Storage in Red!</tresholdAdvice>
+            </left>
+            <right>
+                <totalStoragesValue>Total Value:</totalStoragesValue>
+            </right>
+        </bottom>
+        <filters>
+            <ignoreIliya>Ignore Iliya's T 5?</ignoreIliya>
+            <ignoreEpheria>Ignore Epheria's T 5?</ignoreEpheria>
+            <ignoreAncado>Ignore Ancado's T 1-4?</ignoreAncado>
+        </filters>
+    </barter>
+    
+    <!-- Carrack menu strings -->
+    <carrack>
+        <selectScreen>
+            <title>Select a Carrack you wish to track:</title>
+        </selectScreen>
+        <menu>
+            <inventory>Inventory</inventory>
+            <tracker>Tracker</tracker>
+            <carrackAdvice>You can click on the Carrack's picture to change your choice!</carrackAdvice>
+        </menu>
+        <totalNeeded>
+            <title>Total needed</title>
+            <coin>Coins</coin>
+            <daily>Daily</daily>
+            <barter>Barter</barter>
+            <totalNeededAdviceContent>
+                You can expand one of the lines to see how they are obtainable!
+            </totalNeededAdviceContent>
+            <totalNeededAdviceTitle>
+                You can check this box to hide the completed items!
+            </totalNeededAdviceTitle>
+        </totalNeeded>
+        <!-- Will show on the select screen but also on the inventory screen when selected (bot left) • So put the first letter in CAPS -->
+        <type>
+            <advance>Advance</advance>
+            <balance>Balance</balance>
+            <volante>Volante</volante>
+            <valor>Valor</valor>
+        </type>
+        
+        <items>
+        <!-- Inventory Part -->
+            <EpheriaCaravelEnhancedPlating>
+                <name>+10 Green Plating</name>
+            </EpheriaCaravelEnhancedPlating>
+            <EpheriaCaravelBrassFigurehead>
+                <name>+10 Green Prow</name>
+            </EpheriaCaravelBrassFigurehead>
+            <EpheriaCaravelVerishaCannon>
+                <name>+10 Green Cannon</name>
+            </EpheriaCaravelVerishaCannon>
+            <EpheriaCaravelWhiteWindSail>
+                <name>+10 Green Sail</name>
+            </EpheriaCaravelWhiteWindSail>
+            <EpheriaGalleassEnhancedPlating>
+                <name>+10 Green Plating</name>
+            </EpheriaGalleassEnhancedPlating>
+            <EpheriaGalleassWhiteHornFigurehead>
+                <name>+10 Green Prow</name>
+            </EpheriaGalleassWhiteHornFigurehead>
+            <EpheriaGalleassVerishaCannon>
+                <name>+10 Green Cannon</name>
+            </EpheriaGalleassVerishaCannon>
+            <EpheriaGalleassWhiteWindSail>
+                <name>+10 Green Sail</name>
+            </EpheriaGalleassWhiteWindSail>
+            <MoonVeinFlaxFabric>
+                <name>Moon Fabric</name>
+            </MoonVeinFlaxFabric>
+            <DeepTideDyedStandardizedTimberSquare>
+                <name>Deep Timber</name>
+            </DeepTideDyedStandardizedTimberSquare>
+            <BrilliantRockSaltIngot>
+                <name>Brillant Rock</name>
+            </BrilliantRockSaltIngot>
+            <TearoftheOcean>
+                <name>Tear of the Ocean</name>
+            </TearoftheOcean>
+            <BrilliantPearlShard>
+                <name>Pearl Shard</name>
+            </BrilliantPearlShard>
+            <RuddyManganeseNodule>
+                <name>Ruddy Nodule</name>
+            </RuddyManganeseNodule>
+            <EnhancedIslandTreeCoatedPlywood>
+                <name>Enhanced Plywood</name>
+            </EnhancedIslandTreeCoatedPlywood>
+            <SeaweedStalk>
+                <name>Seaweed Stalk</name>
+            </SeaweedStalk>
+            <GreatOceanDarkIron>
+                <name>Dark Iron</name>
+            </GreatOceanDarkIron>
+            <TideDyedStandardizedTimberSquare>
+                <name>Timber</name>
+            </TideDyedStandardizedTimberSquare>
+            <CoxPiratesArtifactCombat>
+                <name>Cox's Combat</name>
+            </CoxPiratesArtifactCombat>
+            <MoonScalePlywood>
+                <name>Moon Plywood</name>
+            </MoonScalePlywood>
+            <BrightReefPiece>
+                <name>Reef Piece</name>
+            </BrightReefPiece>
+            <PurePearlCrystal>
+                <name>Pearl Crystal</name>
+            </PurePearlCrystal>
+            <CoxPiratesArtifactParleyBeginner>
+                <name>Cox's Parley Beginner</name>
+            </CoxPiratesArtifactParleyBeginner>
+            <CoxPiratesArtifactParleyExpert>
+                <name>Cox's Parley Expert</name>
+            </CoxPiratesArtifactParleyExpert>
+            <LuminousCobaltIngot>
+                <name>Luminous Cobalt</name>
+            </LuminousCobaltIngot>
+            
+            
+        <!-- Tracker part -->
+            <CarrackTracking>
+                <name>Carrack</name>
+            </CarrackTracking>
+            
+            <CaravelPlatingTracking>
+                <name>Blue Caravel Plating</name>
+            </CaravelPlatingTracking>
+            <CaravelProwTracking>
+                <name>Blue Caravel Prow</name>
+            </CaravelProwTracking>
+            <CaravelCannonTracking>
+                <name>Blue Caravel Cannon</name>
+            </CaravelCannonTracking>
+            <CaravelSailTracking>
+                <name>Blue Caravel Sail</name>
+            </CaravelSailTracking>
+            
+            <GalleassPlatingTracking>
+                <name>Blue Galleass Plating</name>
+            </GalleassPlatingTracking>
+            <GalleassProwTracking>
+                <name>Blue Galleass Prow</name>
+            </GalleassProwTracking>
+            <GalleassCannonTracking>
+                <name>Blue Galleass Cannon</name>
+            </GalleassCannonTracking>
+            <GalleassSailTracking>
+                <name>Blue Galleass Sail</name>
+            </GalleassSailTracking>
+        </items>
+
+        <tracker>
+            <trackerAdvice>
+                You can drag to change the order in which the inventory consume the items and click on an item to directly update it!
+            </trackerAdvice>
+        </tracker>
+
+    </carrack>
+    
+</root>

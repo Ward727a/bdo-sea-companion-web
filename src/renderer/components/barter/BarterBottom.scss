@@ -1,0 +1,15 @@
+.app-barter-bottom-content{
+    display: grid;
+
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+
+    height: 100%;
+}
+.app-barter-bottom{
+    height: 100%;
+}
+.app-barter-bottom-left-content{
+    
+    width: 100%;
+}
